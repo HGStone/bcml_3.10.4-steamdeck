@@ -9,7 +9,7 @@ then
     ~/miniconda3/condabin/conda install pip -y
     ~/miniconda3/bin/python -m pip install bcml==3.10.4
     mkdir ~/.icons
-    wget https://github.com/sks316/HGStone/bcml_3.10.4-steamdeck/raw/main/bcml.png -O ~/.icons/bcml.png
+    wget https://github.com/HGStone/bcml_3.10.4-steamdeck/raw/main/bcml.png -O ~/.icons/bcml.png
     wget https://github.com/HGStone/bcml_3.10.4-steamdeck/raw/main/BCML.desktop -O ~/Desktop/BCML.desktop
     chmod +x ~/Desktop/BCML.desktop
     cp ~/Desktop/BCML.desktop ~/.local/share/applications/BCML.desktop
