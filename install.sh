@@ -7,7 +7,7 @@ then
     ~/miniconda3/condabin/conda init
     ~/miniconda3/condabin/conda install -c conda-forge gcc -y
     ~/miniconda3/condabin/conda install pip -y
-    ~/miniconda3/bin/python -m pip install bcml
+    ~/miniconda3/bin/python -m pip install bcml==3.10.4
     mkdir ~/.icons
     wget https://github.com/sks316/bcml-steamdeck/raw/main/bcml.png -O ~/.icons/bcml.png
     wget https://github.com/sks316/bcml-steamdeck/raw/main/BCML.desktop -O ~/Desktop/BCML.desktop
